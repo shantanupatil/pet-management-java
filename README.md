@@ -1,4 +1,4 @@
-# Pet Management SwingUI
+# Pet Management App
 
 This project is a Java backend system designed to manage pet vaccination tracking. It includes scheduled jobs, entity management, and integration with messaging and persistence layers.
 
