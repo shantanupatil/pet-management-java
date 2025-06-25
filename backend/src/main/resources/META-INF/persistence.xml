@@ -1,0 +1,15 @@
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence">
+    <persistence-unit name="bradyPU" transaction-type="JTA">
+        <jta-data-source>java:/jdbc/H2DS</jta-data-source>
+        <class>com.brady.entities.owner.OwnerEntity</class>
+        <class>com.brady.entities.pet.PetEntity</class>
+        <class>com.brady.entities.vaccination.VaccinationEntity</class>
+        <class>com.brady.entities.user.UserEntity</class>
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="none"/>
+        </properties>
+    </persistence-unit>
+</persistence>

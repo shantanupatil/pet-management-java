@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/brady-client" href="brady-launch.jnlp">
+    <information>
+        <title>Pet Management</title>
+        <vendor>Shantanu Patil</vendor>
+        <description>Pet Management Application</description>
+    </information>
+
+    <security>
+        <all-permissions/>
+    </security>
+
+    <resources>
+        <j2se version="1.8+" />
+        <jar href="brady-client.jar" main="true"/>
+    </resources>
+
+    <application-desc main-class="com.brady.ui.login.LoginScreen" />
+</jnlp>

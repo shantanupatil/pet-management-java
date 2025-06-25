@@ -1,0 +1,6 @@
+com\brady\ui\login\LoginScreen.class
+com\brady\ui\vaccination\VaccineEditDialog.class
+com\brady\utils\JNDIUtil.class
+com\brady\ui\dashboard\DashboardScreen.class
+com\brady\ui\owner\OwnerEditDialog.class
+com\brady\ui\pet\PetEditDialog.class
